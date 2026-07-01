@@ -1,0 +1,12 @@
+paper_part,entrypoint,original_script,role
+Section 4 formal campaign,entrypoints/section4_01_run_weighted_dpim_formal_campaign.m,dependencies/original_matlab/run_weighted_paper_formal_campaign.m,Top-level formal probability-weighted DPIM experiment runner
+Figures 1-11,entrypoints/02_section4_build_fig01_to_fig11.py,dependencies/original_python/build_current_paper_numerical_figures.py,Rebuild paper numerical figures
+Section 3 Table 1,entrypoints/03_section3_table1_direct_coverage_coefficients.py,dependencies/original_python/derive_direct_coverage_formulas.py,Compute direct finite-B coverage coefficients
+Sections 4.2 and 4.4 direct validation,,dependencies/original_python/random_weight_coverage_expansion__analyze_linear_nonlinear_outer_cumulants.py,Post-processing support for Euler beam and nonlinear response formula comparison
+Sections 4.2 and 4.4 internal sample size,entrypoints/05_section4_internal_sample_size_coverage.py,dependencies/original_python/docs__update_n_coverage_revision_20260630.py,Internal sample size coverage for n=192/384/768
+Section 4.3 Kirchhoff plate,entrypoints/section4_06_kirchhoff_plate_centered_coverage.m,dependencies/original_matlab/run_kirchhoff_plate_small_deflection_reanalysis.m,Centered stochastic finite-element Kirchhoff plate coverage
+Section 4.3 plate fixed-weight formula,entrypoints/07_section4_plate_fixed_weight_formula_validation.py,dependencies/original_python/random_weight_coverage_expansion__analyze_plate_original_formula.py,Fixed-probability-weight factorized formula validation for plate example
+Configuration,,dependencies/original_matlab/weighted_paper_config.m,Paper workflow configuration
+MATLAB package helpers,,dependencies/+dpimnumeric/*.m,Reusable MATLAB helpers used by formal campaign drivers
+Weighted DPIM helpers,,dependencies/dpim_h_weighted_common/*.m,Probability-weighted curve construction bootstrap and kernel helpers
+Voronoi probability weights,,dependencies/external_weight_providers/*.m,Voronoi probability-weight providers
