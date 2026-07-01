@@ -1,4 +1,4 @@
-# Wgy DPIM CI open-source code
+# DPIM CI open-source code
 
 This folder collects the scripts used for the paper
 `Probability Error Estimation for Direct Probability Integral Method Based on Two-Sided Confidence Intervals`.
@@ -33,7 +33,7 @@ The entry-point names are intentionally different from the original internal nam
 From MATLAB, run:
 
 ```matlab
-cd("C:\Users\Wangg\Desktop\biyeshejimatlab\Wgy_DPIM_CI_open_source_code\entrypoints")
+cd("<repository-root>/DPIM_CI_open_source_code/entrypoints")
 setup_matlab_paths
 section4_01_run_weighted_dpim_formal_campaign("diagnostic")
 ```
@@ -45,7 +45,7 @@ Use `"diagnostic"` first. Full formal runs can be time-consuming.
 From PowerShell:
 
 ```powershell
-cd C:\Users\Wangg\Desktop\biyeshejimatlab\Wgy_DPIM_CI_open_source_code
+cd <repository-root>/DPIM_CI_open_source_code
 python .\entrypoints\03_section3_table1_direct_coverage_coefficients.py
 ```
 
